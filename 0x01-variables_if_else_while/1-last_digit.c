@@ -15,11 +15,11 @@
 int main(void)
 {
 int n;
+char str[50] = "";
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-char str[50] = "";
 int last_digit = abs(n % 10);
 
 if (last_digit == 0)
