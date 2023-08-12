@@ -13,7 +13,8 @@ for (c = 'a'; c <= 'z'; c++)
 {
 if (c == 'q' || c == 'e')
 continue;
-else putchar(c);
+else 
+putchar(c);
 }
 
 
