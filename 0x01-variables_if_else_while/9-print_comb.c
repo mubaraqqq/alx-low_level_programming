@@ -11,8 +11,11 @@ int i = 0;
 
 do {
 putchar(i + '0');
+if (i != 9)
+{
 putchar(44);
 putchar(' ');
+}
 i++;
 } while (i < 10);
 
