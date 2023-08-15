@@ -19,9 +19,3 @@ _putchar('\n');
  *
  * Return: return integer 0
 */
-
-// int main(void)
-// {
-// print_alphabet();
-// return (0);
-// }
