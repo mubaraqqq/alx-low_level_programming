@@ -6,7 +6,7 @@
  * Return: 1 if true and 0 ptherwise
 */
 
-int _islower(char c)
+int _islower(int c)
 {
 if (c == tolower(c))
 return 1;
