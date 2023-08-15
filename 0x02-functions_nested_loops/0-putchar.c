@@ -9,7 +9,8 @@
 int main (void)
 {
 char str[] = "_printchar";
-for (int i = 0; i < 10; i ++)
+int i;
+for (i = 0; i < 10; i ++)
 {
 _putchar(str[i]);
 }
