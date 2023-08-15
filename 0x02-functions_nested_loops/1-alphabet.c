@@ -2,14 +2,12 @@
 
 /**
  * print_alphabet - using putchar to print alphabet
- *
- * Return: return integer 0
 */
 
 void print_alphabet(void)
 {
 char i;
-for (i = 'a'; i < 'z'; i++)
+for (i = 'a'; i <= 'z'; i++)
 {
 _putchar(i);
 }
@@ -22,8 +20,8 @@ _putchar('\n');
  * Return: return integer 0
 */
 
-int main(void)
-{
-print_alphabet();
-return (0);
-}
+// int main(void)
+// {
+// print_alphabet();
+// return (0);
+// }
