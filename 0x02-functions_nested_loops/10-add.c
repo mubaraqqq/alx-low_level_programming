@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - print 9 times table
+ * add - print 9 times table
  * @x: first param to add
  * @y: second param to add
  * Return: returns addition of the two - integer
