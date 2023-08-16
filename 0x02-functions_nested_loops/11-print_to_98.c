@@ -12,7 +12,7 @@ int n;
 
 if (y > 98)
 {
-for (n = y; n > 98; n--)
+for (n = y; n > 97; n--)
 {
 printf("%d", n);
 if (n != 98)
@@ -20,7 +20,7 @@ if (n != 98)
 putchar(',');
 putchar(' ');
 }
-}    
+}  
 }
 
 else
