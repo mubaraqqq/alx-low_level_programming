@@ -6,7 +6,7 @@
  * @y: parameter
 */
 
-void main(int y)
+void print_to_98(int y)
 {
 int n;
 for (n = y; n < 99; n++)
