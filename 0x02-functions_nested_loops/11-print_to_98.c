@@ -20,7 +20,7 @@ if (n != 98)
 putchar(',');
 putchar(' ');
 }
-}  
+}
 }
 
 else
