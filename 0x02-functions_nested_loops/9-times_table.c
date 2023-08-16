@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * times_table - print 9 times table
@@ -17,10 +18,16 @@ for (operand_2 = 0; operand_2 < 10; operand_2++)
 multiple = operand_one * operand_2;
 if (multiple <= 9)
 {
+if (operand_2 != 0)
+{
+_putchar(' ');
+_putchar(' ');
+}
 _putchar(multiple + '0');
 }
 else if (multiple > 9)
 {
+_putchar(' ');
 _putchar((multiple / 10) + '0');
 _putchar((multiple % 10) + '0');
 }
