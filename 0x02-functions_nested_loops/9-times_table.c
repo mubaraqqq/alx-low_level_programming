@@ -6,19 +6,29 @@
 
 void times_table(void)
 {
-int minutes;
-int hours;
+int operand_one;
+int operand_2;
+int multiple;
 
-for (hours = 0; hours < 24; hours++)
+for (operand_one = 0; operand_one < 10; operand_one++)
 {
-for (minutes = 0; minutes <= 59; minutes++)
+for (operand_2 = 0; operand_2 < 10; operand_2++)
 {
-_putchar((hours / 10) + '0');
-_putchar((hours % 10) + '0');
-_putchar(':');
-_putchar((minutes / 10) + '0');
-_putchar((minutes % 10) + '0');
-_putchar('\n');
+multiple = operand_one * operand_2;
+if (multiple <= 9)
+{
+_putchar(multiple + '0');
 }
+else if (multiple > 9)
+{
+_putchar((multiple / 10) + '0');
+_putchar((multiple % 10) + '0');
+}
+if (operand_2 != 9)
+{
+_putchar(',');
+}
+}
+_putchar('\n');
 }
 }

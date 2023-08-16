@@ -1,34 +1,24 @@
 #include "main.h"
 
 /**
- * times_table - print 24 hours
+ * jack_bauer - print 24 hours
 */
 
-void times_table(void)
+void jack_bauer(void)
 {
-int operand_one;
-int operand_2;
-int multiple;
+int minutes;
+int hours;
 
-for (operand_one = 0; operand_one < 10; operand_one++)
+for (hours = 0; hours < 24; hours++)
 {
-for (operand_2 = 0; operand_2 < 10; operand_2++)
+for (minutes = 0; minutes <= 59; minutes++)
 {
-multiple = operand_one * operand_2;
-if (multiple <= 9)
-{
-_putchar(multiple + '0');
-}
-else if (multiple > 9)
-{
-_putchar((multiple / 10) + '0');
-_putchar((multiple % 10) + '0');
-}
-if (operand_2 != 9)
-{
-_putchar(',');
-}
-}
+_putchar((hours / 10) + '0');
+_putchar((hours % 10) + '0');
+_putchar(':');
+_putchar((minutes / 10) + '0');
+_putchar((minutes % 10) + '0');
 _putchar('\n');
+}
 }
 }
