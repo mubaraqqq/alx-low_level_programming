@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,24 +12,27 @@ for (n = 1; n < 101; n++)
 {
 if (n % 3 == 0 && n % 5 != 0)
 {
-printf("Fizz");
-printf(" ");
+_putchar("Fizz");
+_putchar(" ");
 }
 else if (n % 5 == 0 && n % 3 != 0)
 {
-printf("Buzz");
-printf(" ");
+_putchar("Buzz");
+_putchar(" ");
 }
 else if (n % 3 == 0 && n % 5 == 0)
 {
-printf("FizzBuzz");
-printf(" ");
+_putchar("FizzBuzz");
+_putchar(" ");
 }
 else
 {
-printf("%d", n);
-printf(" ");
+if (n > 9)
+_putchar((n / 10) + '0');
+
+_putchar((n % 10) + '0');
+_putchar(" ");
 }
 }
-printf("\n");
+_putchar("\n");
 }
