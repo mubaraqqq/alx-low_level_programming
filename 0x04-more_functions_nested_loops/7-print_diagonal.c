@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_diagonal - print diagonal using ineteger input
@@ -17,10 +16,10 @@ for (count = 0; count <= n; count++)
 {
 for (line_count = 0; line_count <= count; line_count++)
 {
-putchar(' ');
+_putchar(' ');
 }
-putchar('\\');
-putchar('\n');
+_putchar('\\');
+_putchar('\n');
 }
 }
 
