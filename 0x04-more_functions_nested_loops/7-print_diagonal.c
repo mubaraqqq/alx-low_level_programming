@@ -14,7 +14,7 @@ if (n > 0)
 {
 for (count = 0; count < n; count++)
 {
-for (line_count = 0; line_count <= count; line_count++)
+for (line_count = 0; line_count < count; line_count++)
 {
 _putchar(' ');
 }
