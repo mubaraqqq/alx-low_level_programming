@@ -4,7 +4,7 @@
  * fizz_buzz - print fizz buzz
 */
 
-void main(void)
+void fizz_buzz(void)
 {
 int n;
 
