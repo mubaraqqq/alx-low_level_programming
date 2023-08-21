@@ -13,6 +13,7 @@ char *t;
 while (s[i] != '\0')
 i++;
 
+i--;
 while (i >= 0)
 {
 *t = s[i];
