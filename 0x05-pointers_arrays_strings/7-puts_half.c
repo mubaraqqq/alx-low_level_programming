@@ -18,7 +18,7 @@ mid = (i - 1) / 2;
 else
 mid = i  / 2;
 
-mid--;
+mid++;
 while (mid < i)
 {
 _putchar(str[mid]);
