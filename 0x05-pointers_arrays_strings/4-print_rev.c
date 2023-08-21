@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * _print_rev - print reverse string followed by new line
