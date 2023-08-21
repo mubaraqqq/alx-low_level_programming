@@ -2,21 +2,22 @@
 #include "_putchar.c"
 
 /**
- * _print_rev - print reverse string followed by new line
+ * rev_string - reverse string
  * @s: char parameter
 */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 int i = 0;
+char *t;
 
 while (s[i] != '\0')
 i++;
 
 while (i >= 0)
 {
-_putchar(s[i]);
+*t = s[i];
+t++;
 i--;
 }
-_putchar('\n');
 }
