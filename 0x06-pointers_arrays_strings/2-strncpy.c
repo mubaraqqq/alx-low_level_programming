@@ -20,6 +20,8 @@ src++;
 n--;
 }
 
+*dest = '\0';
+
 return (str);
 
 }
