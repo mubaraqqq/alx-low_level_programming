@@ -22,8 +22,7 @@ else if (*s == 't' || *s == 'T')
 *s = '7';
 else if (*s == 'l' || *s == 'L')
 *s = '1';
-s++
-;
+s++;
 }
 *s = '\0';
 return (str);
