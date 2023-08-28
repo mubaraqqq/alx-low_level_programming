@@ -2,6 +2,7 @@
 
 /**
  * print_chessboard - print the chessboard
+ * @a: array argument
  * 
 */
 
