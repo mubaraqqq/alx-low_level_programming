@@ -1,0 +1,1 @@
+# Lesson 7 on pointers, strings and arrays
