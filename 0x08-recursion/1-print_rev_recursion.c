@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * _print_rev_recursion - print a string in revese recursively
@@ -9,14 +10,11 @@ void _print_rev_recursion(char *s)
 {
 if (*s == '\0')
 return;
-else
-{
-s++;
-_print_rev_recursion(s);
+
+_print_rev_recursion(s + 1);
 if (*s == '\n')
 _putchar('\n');
 else
 _putchar(*s);
-}
 
 }
