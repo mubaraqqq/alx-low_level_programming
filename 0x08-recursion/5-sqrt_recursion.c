@@ -18,9 +18,9 @@ else
 {
 mid = n / 2;
 next = _sqrt_recursion(mid);
-if (next * next == n)
+if ((next * next) == n)
 return (next);
 else
-return _sqrt_recursion(mid + 1);
+return (_sqrt_recursion(mid + 1));
 }
 }
