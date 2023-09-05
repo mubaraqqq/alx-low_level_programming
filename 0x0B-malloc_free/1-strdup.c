@@ -26,6 +26,6 @@ new_str[i] = str[i];
 
 new_str[end - str] = '\0';
 
-free(new_str);
 return (new_str);
+free(new_str);
 }
