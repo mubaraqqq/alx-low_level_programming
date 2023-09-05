@@ -20,7 +20,7 @@ return (NULL);
 
 while (*end1 != '\0')
 end1++;
-  
+
 while (*end2 != '\0')
 end2++;
 
