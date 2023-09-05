@@ -8,7 +8,7 @@
  * Return: pointer to char
 */
 
-char *str_concat_without_strlen(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 char *end1 = s1;
 char *end2 = s2;
