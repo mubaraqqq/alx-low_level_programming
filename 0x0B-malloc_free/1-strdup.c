@@ -21,6 +21,9 @@ end++;
 
 new_str = (char *)malloc(end - str + 1);
 
+if (new_str == NULL)
+return (NULL);
+
 for (i = 0; i < end - str; i++)
 new_str[i] = str[i];
 
