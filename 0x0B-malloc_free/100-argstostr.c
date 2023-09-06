@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * argtostr - concat all args
+ * argstostr - concat all args
  * @ac: integer
  * @av: args
  * Return: pointer to string
