@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * argtostr - concat all args
+ * @ac: integer
+ * @av: args
+ * Return: pointer to string
+*/
+
 char *argstostr(int ac, char **av)
 {
 int i, j, k = 0;
