@@ -39,7 +39,7 @@ return (new_ptr);
 if (new_size == old_size)
 return (ptr);
 
-void *new_ptr = malloc(new_size);
+new_ptr = malloc(new_size);
 
 if (new_ptr == NULL)
 return (NULL);
