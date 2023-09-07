@@ -44,7 +44,7 @@ void *new_ptr = malloc(new_size);
 if (new_ptr == NULL)
 return (NULL);
 
-for (unsigned int i = 0; i < old_size; i++)
+for (i = 0; i < old_size; i++)
 ((char *)new_ptr)[i] = ((char *)ptr)[i];
 
 free(ptr);
