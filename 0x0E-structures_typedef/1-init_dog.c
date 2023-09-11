@@ -1,6 +1,6 @@
 #include "main.h"
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
