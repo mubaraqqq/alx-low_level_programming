@@ -1,5 +1,5 @@
 #ifndef main_h
 #define main_h
 int _putchar(char);
-void *malloc_checked(unsigned int b);
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
